@@ -1,0 +1,29 @@
+.noteContainer {
+  
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+    width: 215px;
+   
+    
+    align-items: center;
+  }
+  .noteChackContainer{
+  display: flex;
+  flex-direction: row;   
+  }
+.note {
+ 
+  color: black; 
+  word-break: break-all;
+}
+  .note.completed {
+    text-decoration: line-through;
+    color: grey;
+  }
+  

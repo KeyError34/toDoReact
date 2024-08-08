@@ -1,0 +1,17 @@
+.noteFormContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.noteFormInput {
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.noteFormButton {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
